@@ -120,6 +120,12 @@
   'println':
     'prefix': 'pl'
     'body': 'System.out.println($1);$0'
+  'printf':
+    'prefix': 'pf'
+    'body': 'System.out.printf($1);$0'
+  'format':
+    'prefix': 'pfo'
+    'body': 'System.out.format($1);$0'
   'test case':
     'prefix': 'tc'
     'body': 'public class ${1:MyTest} extends ${2:TestCase} {\n\t$0\n}'
